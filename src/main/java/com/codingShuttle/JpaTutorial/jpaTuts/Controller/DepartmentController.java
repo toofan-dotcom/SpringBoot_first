@@ -40,4 +40,10 @@ public class DepartmentController {
         return departmentService.assignWorkerToDepartment(departmentId,employeeId);
     }
 
+    @GetMapping("/get")
+    public String test(){
+        return "Abhishek";
+    }
+
+
 }
